@@ -3,10 +3,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import time
 
-Link = "https://www.jbhifi.com.au/products/pokemon-tcg-lost-origin-booster-card-games?queryID=0241a083063ea39d0ebb88b9dda4ea90&objectID=596511"
-Coupon = "92OFOLKY15OUNP"
-Email = "lohjiajhin@gmail.com"
-N = 3   # Number of browsers to spawns
+Link = ""
+Coupon = ""
+Email = ""
+N = 1   # Number of browsers to spawns
 
 def browser_function():
     driver_path = "D:\Python\WebDrivers\chromedriver.exe"
